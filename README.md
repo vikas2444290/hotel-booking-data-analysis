@@ -37,5 +37,6 @@ City Hotel and Resort Hotel experience high booking cancellation rates, leading 
 - `report/` → PDF report with visualizations and insights
 - `data/` → Dataset used for analysis
 
-## Author
-Vikas
+## Author & Contact
+**Vikas Yadav**
+Linkdin: https://www.linkedin.com/in/data-scientist-vikas/
