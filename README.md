@@ -1,21 +1,60 @@
 # Hotel Booking Cancellation Analysis 📊
 
 ## Project Overview
-This project analyzes hotel booking data to identify key factors influencing reservation cancellations. The goal is to provide actionable business insights that can help hotels reduce cancellation rates and improve revenue management.
+This project analyzes hotel booking data to understand the key factors driving reservation cancellations and their impact on hotel revenue. Using exploratory data analysis (EDA), the project aims to generate actionable business insights that can help hotels reduce cancellations and improve revenue efficiency.
+
+---
 
 ## Business Problem
-City Hotel and Resort Hotel experience high booking cancellation rates, leading to revenue loss and inefficient room utilization. This analysis explores pricing, seasonality, hotel type, and customer behavior to understand cancellation patterns.
+City Hotels and Resort Hotels have been experiencing high booking cancellation rates, resulting in revenue loss and underutilized rooms.  
+The objective of this analysis is to identify patterns behind cancellations by examining pricing, seasonality, hotel type, booking channels, and customer behavior, and to propose data-driven recommendations.
+
+---
 
 ## Dataset
-- Source: Hotel booking dataset (2015–2017)
-- Records include booking status, hotel type, ADR (Average Daily Rate), country, distribution channels, and monthly trends.
+- **Source:** Hotel booking dataset (2015–2017)
+- **Key Features:**
+  - Booking status (cancelled / not cancelled)
+  - Hotel type (City / Resort)
+  - Average Daily Rate (ADR)
+  - Country of origin
+  - Distribution channels (Online TA, Offline TA, Groups, Direct)
+  - Monthly and seasonal booking patterns
 
-## Key Analysis Performed
+---
+
+## Analysis Approach
+The analysis was performed using Python in a Jupyter Notebook and followed a structured EDA workflow:
+
+- Data cleaning and preprocessing
 - Cancellation vs non-cancellation comparison
-- City hotel vs resort hotel trends
-- Monthly reservation and cancellation patterns
-- Impact of Average Daily Rate (ADR) on cancellations
-- Country-wise and channel-wise cancellation analysis
+- City Hotel vs Resort Hotel analysis
+- Monthly and seasonal reservation trends
+- Impact of pricing (ADR) on cancellation behavior
+- Country-wise cancellation distribution
+- Booking channel analysis (Online, Group, Direct)
+
+---
+
+## Key Insights
+- Approximately **37% of total bookings were cancelled**, significantly affecting revenue
+- **Higher Average Daily Rate (ADR)** strongly correlates with higher cancellation rates
+- **Resort hotels** show a higher cancellation ratio compared to city hotels
+- **January** records the highest cancellations, while **August** has the highest booking volume
+- Around **46% of bookings come from online travel agencies**, contributing most to cancellations
+- **Portugal** has the highest number of cancelled reservations
+
+---
+
+## Business Recommendations
+Based on the analysis, the following actions are suggested:
+
+- Optimize pricing strategies during high-cancellation periods
+- Offer targeted discounts for resort hotels on weekends and holidays
+- Launch focused marketing campaigns during high-risk months like January
+- Improve service quality in regions with high cancellation rates to reduce customer churn
+
+---
 
 ## Tools & Technologies
 - Python
@@ -25,19 +64,17 @@ City Hotel and Resort Hotel experience high booking cancellation rates, leading 
 - Seaborn
 - Jupyter Notebook
 
-## Results & Insights
-- Higher prices lead to higher cancellation rates
-- Resort hotels face higher cancellations compared to city hotels
-- January has the highest cancellation rate
-- Majority of bookings come from online travel agents
-- Portugal has the highest number of cancellations
+---
 
-## Files in this Repository
-- `notebook/` → Jupyter Notebook with full analysis
-- `report/` → PDF report with visualizations and insights
-- `data/` → Dataset used for analysis
+## Repository Structure
+- `Data Analysis(Hotel Booking).ipynb` → Jupyter Notebook with full analysis  
+- `Data Analysis(Hotel Booking).html` → Exported notebook for easy viewing  
+- `Report.pdf` → Detailed report with visualizations and findings  
 
-## Author & Contact
-**Vikas Yadav**
+---
 
-Linkdin: https://www.linkedin.com/in/data-scientist-vikas/
+## Author
+**Vikas Yadav**  
+BS Data Science Student, IIT Madras  
+
+🔗 LinkedIn: https://www.linkedin.com/in/data-scientist-vikas/
