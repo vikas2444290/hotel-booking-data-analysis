@@ -39,4 +39,5 @@ City Hotel and Resort Hotel experience high booking cancellation rates, leading 
 
 ## Author & Contact
 **Vikas Yadav**
+
 Linkdin: https://www.linkedin.com/in/data-scientist-vikas/
